@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract PharmaSupplyChain {
     
-    enum BatchStatus { Manufactured, QualityCheck, InTransit, Delivered }
+    enum BatchStatus { Manufactured, InTransit, Delivered }
     
     struct DrugBatch {
         string batchNumber;
